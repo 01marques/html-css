@@ -5,15 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: Verdana, Gevena , Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Sriracha', cursive;      
+    --fonte3: ' Sriracha', cursive;
 }
 
 * {
     margin: 0px;
     padding: 0px;
-   
 }
 
 html, body {
@@ -22,12 +21,10 @@ html, body {
     font-family: var(--fonte1);
 }
 
-
 header {
     background-color: black;
     color: white;
     text-align: center;
-    
 }
 
 header > h1 {
@@ -35,13 +32,11 @@ header > h1 {
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 10vw;
-  
 }
 
-header p {
+header  p {
     padding-bottom: 50px;
     display: block;
-    
 }
 
 a {
@@ -51,20 +46,18 @@ a {
 }
 
 header a:hover, footer a:hover {
+
     text-decoration: underline;
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;   
+    
+    padding-top:5vh;
+    padding-bottom:5vh;
+    line-height: 1em;
+    padding-left: 20px;
     font-family: var(--fonte3);
-    font-size: 3.5vw; 
-}
-
-section > p {
-    padding-bottom: 2em;
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -73,30 +66,13 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(51,51,51);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgb(0, 0,  0.473);
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
-    background-color: rgb(0, 0, 0, 0.514);
-    text-shadow: 1px, 1px, 0px black;
-}
-
-section#img01 {
-    background-image: url('../imagens/background001.jpg');
-    background-position: right center;
-    
-}
-
-section#img02 {
-    background-image: url('../imagens/background002.jpg');
-    background-position: right center;
-   
+    background-color: rgb(0,0,0.253);
 }
 
 footer {
@@ -106,3 +82,6 @@ footer {
     padding: 10px;
 }
 
+.thumb {
+    background-image: url("imag");
+}
